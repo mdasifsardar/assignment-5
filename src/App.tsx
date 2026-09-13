@@ -3,7 +3,7 @@
 // import type { ITechnologies } from "./types/TechnologiesType";
 // import Footer from "./components/Footer/Footer";
 // import DevelopmentSTack from "./components/DevelopmentSTack/DevelopmentSTack";
-import Navbar from "./components/Navbar/Navbar";
+// import Navbar from "./components/Navbar/Navbar";
 
 // const technologiesData = async (): Promise<ITechnologies[]> => {
 //   const res = await fetch("/data.json");
@@ -14,7 +14,7 @@ import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <DevelopmentSTack />
       <Suspense fallback={<p>Loading....</p>}>
         <MainTechnologies technologiesData={technologiesData()} />
